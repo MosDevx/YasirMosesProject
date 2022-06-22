@@ -106,7 +106,63 @@ h1 {
 }
 
 #projects {
-  height: 100vh;
-  background-color: #e28eda;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  background-color: #00c9c9;
+}
+
+#projects #project-title {
+  padding-bottom: 4em;
+  margin-bottom: 4em;
+}
+
+#projects figure {
+  display: inline-block;
+}
+
+#projects figcaption {
+  text-align: center;
+}
+
+#projects img {
+  width: 320px;
+  height: 210px;
+  margin: 0.5em 1em;
+}
+
+#projects button {
+  position: absolute;
+  bottom: 0em;
+  right: 0em;
+  padding: 0.5em;
+  border: 0;
+  border-radius: 0.4em;
+  background-color: #5207bb;
+}
+
+#projects button a {
+  text-decoration: none;
+  color: white;
+}
+
+#projects button:hover {
+  background-color: #cd2c34;
+}
+
+@media screen and (min-width: 768px) {
+  #projects img {
+    width: 420px;
+    height: 300px;
+    margin: 1em;
+    margin-top: 1em;
+  }
+  #projects button {
+    bottom: 1em;
+    right: 1em;
+    padding: 1em;
+  }
 }
 /*# sourceMappingURL=style.css.map */
