@@ -114,6 +114,7 @@ h1 {
   line-height: 2em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 #projects {
@@ -159,6 +160,9 @@ h1 {
 }
 
 @media screen and (min-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
   #projects img {
     width: 420px;
     height: 300px;
