@@ -94,12 +94,17 @@ h1{
 	background-color:#e28eda;
 	
 
-	// img{
-	// 	width:640px;
-	// 	height:420px;
-	// }
+	img{
+		width:320px;
+		height:210px;
+	 }
 }
 
-
-
+@media screen  and (min-width:768px) {
+	// imgaes for ipad and laptops 
+	img{
+		width: 640px;
+		height: 240px;
+	}
+}
 // Your portfolio should have at least one media query
